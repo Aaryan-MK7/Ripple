@@ -88,13 +88,3 @@ are outside the initial proposed scope.
 "Local" describes the project's intended direction; no runtime or data-flow
 guarantees exist yet. Do not assume complete dependency discovery or safe
 automatic propagation before those properties are implemented and tested.
-
-## Contributing and keeping this README current
-
-Ground each capability in a reproducible fixture and document what the mapper
-can and cannot discover. As implementation lands, update this README with actual
-setup commands, supported integrations, agent permissions, validation steps, and
-known limitations. Keep planned behavior distinct from working features.
-
-Do not commit credentials, private workspace contents, or generated dependency
-maps containing sensitive information.
